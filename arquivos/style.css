@@ -8,16 +8,21 @@ body{
     background-color: rgba(128, 128, 128, 0.112);
 }
 input{
-    background-color: rgb(97, 99, 99);
+    background-color: rgba(97, 99, 99, 0.365);
     border: none;
     border-bottom: 1px solid black;
     outline: none;
     border-radius: 20px;
     padding: 5px;
     color: white;
+    text-align: center;
 }
 input::placeholder{
     color: white;
+}
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+     margin: 0;
 }
 .imagens{
     width: 300px;
@@ -42,7 +47,9 @@ header{
     margin-top: 50px;
     margin-bottom: 30px;
     background-color: rgba(128, 128, 128, 0.534);
+
 }
+
 button {
     background-color: black;
     color: white;
